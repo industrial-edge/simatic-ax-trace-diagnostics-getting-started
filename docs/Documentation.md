@@ -16,7 +16,7 @@ In order to try out the main functionalities of SIMATIC AX Trace Diagnostics app
 
 ## Managing the running PLC
 
-Download the TIA portal project (Tank application) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
+Download the TIA portal project (Tank application) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC.
 
 ## Adding the PLC (configuration of the PLC connection)
 
