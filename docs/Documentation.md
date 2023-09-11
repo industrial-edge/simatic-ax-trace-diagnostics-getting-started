@@ -42,7 +42,7 @@ Then, the added PLC should be visible and its status is Online.
 
 ## Configuration of Databus
 
-## Publishing the trace jobs to databus
+## Publishing the trace jobs to Databus
 
 ## Configuration of Flow Creator
 
