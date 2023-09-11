@@ -19,10 +19,22 @@ It can be noticed that a high frequency noise can be traced using this applicati
 ###  Prerequisites
 
 - Access to an Industrial Edge Management System (IEM)
-- Onboarded Industrial Edge Device (IED) on IEM
+- Onboarded Industrial Edge Device (IED) or Industrial Edge Virtual Device (IEVD) on IEM
 - Installed System Configurator for Databus
 - Installed System App Databus
 - Installed Apps SIMATIC AX Trace Diagnostics and Flow Creator
 - IED in the same network as PLC (PLC is reachable from IED)
 - TIA portal project (Tank Application) loaded on PLC
 
+### Used components
+
+- Industrial Edge Management V1.5.2-4 / V1.11.8
+  - Databus V2.1.0-4
+  - Databus Configurator V2.0.0-5
+  - Flow Creator V 1.12.0
+  - Common Connector Configurator V1.8.1-4
+- Industrial Edge Virtual Device V1.12.0-3-a
+- TIA Portal V16
+- S7-PLCSIM Advanced V3.0 Upd2
+- S7-1511C
+- Web browser (Chrome or Mozilla)
