@@ -46,6 +46,12 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - Databus is deployed to the IED
 - Flow Creator is deployed to the IED
 
+### TIA Project
+
+The used TIA Portal project (Tank Application) can be found in the [src](src) -file under the following name and is also used for several further application examples:
+
+// - [HowTos_Sinus_Wave.7z](src/HowTos_Sinus_Wave.7z)
+
 ## Usage
 
 The application SIMATIC AX Trace Diagnostics offers following functionalities:
