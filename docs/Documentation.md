@@ -11,6 +11,8 @@
 
 In order to try out the main functionalities of SIMATIC AX Trace Diagnostics application and the application example itself, the following applications should be installed on your IED or IEVD:
 
+![task](docs/graphics/Installed_aps.png)
+
 ## Adding the PLC (configuration of the PLC connection)
 
 ## Adding and running the trace jobs
