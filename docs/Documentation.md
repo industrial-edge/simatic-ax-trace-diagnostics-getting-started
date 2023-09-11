@@ -24,6 +24,12 @@ Open the application SIMATIC AX Trace Diagnostics, click on button Trace Jobs an
 
 ![Click_on_Add_PLC](graphics/Click_on_Add_PLC.png)
 
+Fill the IP address of your PLC (can be different that the in the image), nickname of your PLC and the password if it is used for accesing the PLC. Then, click on button Add.
+
+
+If the certificate used for accesing the PLC needs to be uploaded, the Connection mode should be change from Legacy to Secure via TSL.
+
+
 ## Adding and running the trace jobs
 
 ## Configuration of Databus
