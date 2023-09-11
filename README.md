@@ -68,6 +68,7 @@ The used TIA Portal project (Tank Application) can be found in the [src](src) di
 
 You can find the further information about the following steps in the [Documentation](docs/Documentation.md)
 - Install the necessary applications
+- Manage the running PLC
 - Add the PLC (configure the PLC connection)
 - Add and run the trace jobs
 - Configure the Databus
