@@ -48,9 +48,9 @@ It can be noticed that a high frequency noise can be traced using this applicati
 
 ### TIA Project
 
-The used TIA Portal project (Tank Application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
+The used TIA Portal project (Tank Application) can be found in the [src](docs/src) directory under the following name and is also used for several further application examples: 
 
-- [HowTos_Sinus_Wave.7z](src/HowTos_Sinus_Wave.7z)
+- [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
 
 ## Usage
 
