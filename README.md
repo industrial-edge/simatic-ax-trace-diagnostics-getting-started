@@ -9,8 +9,8 @@
     - [Used components](#used-components)
     - [Further requirements](#further-requirements)
     - [TIA Project](#tia-project)
-  - [Usage](#usage)
   - [Configuration steps](#configuration-steps)
+  - [Usage](#usage)
 
 ## Description
 
@@ -64,15 +64,6 @@ The used TIA Portal project (Tank Application) can be found in the [src](docs/sr
 
 - [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
 
-## Usage
-
-The application SIMATIC AX Trace Diagnostics offers following functionalities:
-
-- Connection to PLC via integrated S7 connector
-- Definition of trace jobs
-- Visualization of traced signals
-- Publishing the signals' data to Databus (up to 4 signals)
-
 ## Configuration steps
 
 You can find the further information about the following steps in the [docs](docs/Installation.md)
@@ -80,5 +71,16 @@ You can find the further information about the following steps in the [docs](doc
 - Add and run the trace jobs
 - Publish the trace jobs to databus
 - Configure Flow Creator
+
+## Usage
+
+The application SIMATIC AX Trace Diagnostics offers the following functionalities:
+
+- Connection to PLC via integrated S7 connector
+- Definition of trace jobs
+- Visualization of traced signals
+- Publishing the signals' data to Databus (up to 4 signals)
+
+
 
   
