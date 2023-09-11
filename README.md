@@ -40,7 +40,7 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - S7-1511C
 - Web browser (Google Chrome)
 
-  ## Usage
+## Usage
 
 The application SIMATIC AX Trace Diagnostics offers following functionalities:
 
