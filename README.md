@@ -66,7 +66,7 @@ The application SIMATIC AX Trace Diagnostics offers following functionalities:
 You can find the further information about the following steps in the [docs](docs/Installation.md)
 - Adding the PLC (configure the PLC connection)
 - Add and run the trace jobs
-- Publish the trace job to databus
+- Publish the trace jobs to databus
 - Configure Flow Creator
 
   
