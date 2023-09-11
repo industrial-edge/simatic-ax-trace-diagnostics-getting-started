@@ -38,4 +38,4 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - TIA Portal V16
 - S7-PLCSIM Advanced V3.0 Upd2
 - S7-1511C
-- Web browser (Chrome or Mozilla)
+- Web browser (Google Chrome)
