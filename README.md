@@ -37,7 +37,7 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - Industrial Edge Virtual Device V1.12.0-3-a
 - TIA Portal V16
 - S7-PLCSIM Advanced V3.0 Upd2
-- S7-1511C
+- S7-1513-1 PN
 - Web browser (Google Chrome)
 
 ### Further requirements
