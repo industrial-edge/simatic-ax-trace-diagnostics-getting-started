@@ -24,7 +24,7 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - Installed System App Databus
 - Installed Apps SIMATIC AX Trace Diagnostics and Flow Creator
 - IED in the same network as PLC (PLC is reachable from IED)
-- TIA portal project (Tank Application) loaded on PLC
+- TIA portal project (Tank Application) loaded on PLC (real one or simulated using S7-PLCSIM Advanced)
 
 ### Used components
 
