@@ -1,6 +1,16 @@
 # SIMATIC AX Trace Diagnostics Getting Started
 
-* [SIMATIC AX Trace Diagnostics Getting Started](#simatic-ax-trace-diagnostics-getting-started)
+- [SIMATIC AX Trace Diagnostics Getting Started](#simatic-ax-trace-diagnostics-getting-started)
+  - [Description](#description)
+    - [Overview](#overview)
+    - [General Task](#general-task)
+  - [Requirements](#requirements)
+    - [Prerequisites](#prerequisites)
+    - [Used components](#used-components)
+    - [Further requirements](#further-requirements)
+    - [TIA Project](#tia-project)
+  - [Usage](#usage)
+  - [Configuration steps](#configuration-steps)
 
 ## Description
 
