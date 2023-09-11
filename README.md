@@ -50,13 +50,23 @@ It can be noticed that a high frequency noise can be traced using this applicati
 
 The used TIA Portal project (Tank Application) can be found in the [src](docs/src) directory under the following name and is also used for several further application examples: 
 
-* [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
+- [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
 
 ## Usage
 
 The application SIMATIC AX Trace Diagnostics offers following functionalities:
 
-* Connection to PLC via integrated S7 connector
-* Definition of trace jobs
-* Visualization of traced signals
-* Publishing the signals' data to Databus (up to 4 signals)
+- Connection to PLC via integrated S7 connector
+- Definition of trace jobs
+- Visualization of traced signals
+- Publishing the signals' data to Databus (up to 4 signals)
+
+## Configuration steps
+
+You can find the further information about the following steps in the [docs](docs/Installation.md)
+- Adding the PLC (configure the PLC connection)
+- Add and run the trace jobs
+- Publish the trace job to databus
+- Configure Flow Creator
+
+  
