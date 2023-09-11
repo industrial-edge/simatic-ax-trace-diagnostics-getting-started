@@ -9,7 +9,7 @@
 
 ## Installation of necessary applications
 
-## Adding the PLC (configuration of trace jobs)
+## Adding the PLC (configuration of the PLC connection)
 
 ## Adding and running the trace jobs
 
