@@ -34,7 +34,9 @@ If the certificate used for accessing the PLC needs to be uploaded, the Connecti
 
 ![Choose_certificate](graphics/Choose_certificate.png)
 
-If everything went smoothly, the added PLC should be visible and its is Online.
+Then, the added PLC should be visible and its status is Online.
+
+![Added_PLC](graphics/Added_PLC.png)
 
 ## Adding and running the trace jobs
 
