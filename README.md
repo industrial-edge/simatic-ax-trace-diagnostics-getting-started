@@ -1,4 +1,6 @@
-# SIMATIC  AX Trace Diagnostics Getting Started
+# SIMATIC AX Trace Diagnostics Getting Started
+
+* [SIMATIC AX Trace Diagnostics Getting Started](#trace-connector-tutorial)
 
 ## Description
 
