@@ -42,9 +42,9 @@ It can be noticed that a high frequency noise can be traced using this applicati
 
   ## Usage
 
-  The application SIMATIC AX Trace Diagnostics offers following functionalities:
+The application SIMATIC AX Trace Diagnostics offers following functionalities:
 
-  * Connection to PLC via integrated S7 connector
-  * Definition of trace jobs
-  * Visualization of traced signals
-  * Publishing the signals' data to Databus (up to 4 signals)
+* Connection to PLC via integrated S7 connector
+* Definition of trace jobs
+* Visualization of traced signals
+* Publishing the signals' data to Databus (up to 4 signals)
