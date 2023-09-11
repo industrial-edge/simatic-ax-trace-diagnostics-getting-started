@@ -5,3 +5,7 @@
 ### Overview
 
 The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Industrial Edge used for tracing the PLC signals same way as it is done in the TIA Portal. This appication example demonstrates how to manage the connection with PLC and trace the chosen variables. 
+
+### General task
+
+In this application example, the connection to one PLC using the application is managed and several signals from the bottles' filling process are traced. You can noticed that also the high frequency noise can be traced using this application. It is due to the ability of this application to trace high frequency signals because the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period. 
