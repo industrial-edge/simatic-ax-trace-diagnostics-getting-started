@@ -40,6 +40,12 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - S7-1511C
 - Web browser (Google Chrome)
 
+### Further requirements
+
+- Databus Configurator is deployed to the IEM
+- Databus is deployed to the IED
+- Flow Creator is deployed to the IED
+
 ## Usage
 
 The application SIMATIC AX Trace Diagnostics offers following functionalities:
