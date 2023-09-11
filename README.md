@@ -60,13 +60,13 @@ It can be noticed that a high frequency noise can be traced using this applicati
 
 ### TIA Project
 
-The used TIA Portal project (Tank Application) can be found in the [src](docs/src) directory under the following name and is also used for several further application examples: 
+The used TIA Portal project (Tank Application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
 
 - [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
 
 ## Configuration steps
 
-You can find the further information about the following steps in the [docs](docs/Installation.md)
+You can find the further information about the following steps in the [Documentation](docs/Documentation.md)
 - Add the PLC (configure the PLC connection)
 - Add and run the trace jobs
 - Configure the Databus
