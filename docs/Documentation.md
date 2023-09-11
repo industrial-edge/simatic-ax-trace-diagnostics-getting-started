@@ -15,6 +15,8 @@ In order to try out the main functionalities of SIMATIC AX Trace Diagnostics app
 
 ## Adding the PLC (configuration of the PLC connection)
 
+Open the application SIMATIC AX Trace Diagnostics, click on button Trace Jobs and then on button Add PLC.
+
 ## Adding and running the trace jobs
 
 ## Configuration of Databus
