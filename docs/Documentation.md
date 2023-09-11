@@ -30,6 +30,7 @@ Fill the IP address of your PLC (can be different that the in the image), nickna
 
 If the certificate used for accessing the PLC needs to be uploaded, the Connection mode should be change from Legacy to Secure via TSL.
 
+![Choose_certificate](graphics/Choose_certificate.png)
 
 ## Adding and running the trace jobs
 
