@@ -8,4 +8,4 @@ The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Ind
 
 ### General task
 
-In this application example, the connection to one PLC using the application is managed and several signals from the bottles' filling process are traced. You can noticed that also the high frequency noise can be traced using this application. It is due to the ability of this application to trace high frequency signals because the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period. 
+In this application example, the connection to the PLC using this application is managed and several signals from the bottles' filling process are traced. It can be noticed that a high frequency noise can be traced using this application as well. It is due to the ability of this application to trace high frequency signals. Why this application can do that? As will be explained in the Configuration guide, the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period.
