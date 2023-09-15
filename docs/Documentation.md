@@ -20,7 +20,7 @@ Download the TIA portal project (Tank application) to the PLC (real one or simul
 
 ## Adding the PLC (configuration of the PLC connection)
 
-Open the application SIMATIC AX Trace Diagnostics, click on button Trace Jobs and then on button Add PLC.
+Open the application SIMATIC AX Trace Diagnostics, click on the button Trace Jobs and then on button Add PLC.
 
 ![Click_on_Trace_Jobs](graphics/Click_on_Trace_Jobs.png)
 
@@ -39,6 +39,8 @@ Then, the added PLC should be visible and its status is Online.
 ![Added_PLC](graphics/Added_PLC.png)
 
 ## Adding and running the trace jobs
+
+Click on the button Add Trace Job
 
 ## Configuration of Databus
 
