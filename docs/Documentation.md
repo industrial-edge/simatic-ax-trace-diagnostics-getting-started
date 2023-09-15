@@ -40,7 +40,13 @@ Then, the added PLC should be visible and its status is Online.
 
 ## Adding and running the trace jobs
 
-Click on the button Add Trace Job
+Click on the button Add Trace Job.
+
+![Added_PLC](graphics/Add_Trace_Job.png)
+
+Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of trace job. The sampling period will be the same as cyclic time of selected OB type cyclic interrup. 
+
+![Added_PLC](graphics/Trace_Job_configuration.png)
 
 ## Configuration of Databus
 
