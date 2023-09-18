@@ -67,8 +67,6 @@ Moreover, these two options can be combined together.
 
 ![Added_PLC](graphics/Trace_Job_signals_combination.png)
 
-If the trace job is added, it can be run by clicking on Button Add Trace Job.
-
 ## Publishing the trace jobs to Databus
 
 If the publishing of trace was not set during the configuration of trace job itself, it can be set afterwards by clicking on 
