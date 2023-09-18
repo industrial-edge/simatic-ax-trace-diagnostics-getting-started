@@ -50,7 +50,7 @@ Then, select the PLC added in previous section and write down the Job Name. Proc
 
 ![Added_PLC](graphics/Trace_Job_configuration.png)
 
-In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box.
+In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box-
 
 
 
