@@ -61,7 +61,7 @@ More signals can be also traced using one trace job.
 
 Anothe option is providing the PLC address of the signal. 
 
-![Added_PLC](graphics/Trace_Job_address.png)
+![Added_PLC](graphics/Trace_Job_signals_address.png)
 
 Moreover, these two options can be combined together.
 
