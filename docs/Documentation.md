@@ -14,6 +14,8 @@ In order to try out the main functionalities of SIMATIC AX Trace Diagnostics app
 
 ![Installed_apps](graphics/Installed_apps.png)
 
+## Configuration of Databus
+
 ## Managing the running PLC
 
 Download the TIA portal project (Tank application) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC.
@@ -48,11 +50,23 @@ Then, select the PLC added in previous section and write down the Job Name. Proc
 
 ![Added_PLC](graphics/Trace_Job_configuration.png)
 
-In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box. Then, the button Add Signal should be pressed. The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
+In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box.
 
-## Configuration of Databus
+
+
+
+
+
+
+
+
+Then, the button Add Signal should be pressed. The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
+
+If the trace job is added, it can be run by clicking 
 
 ## Publishing the trace jobs to Databus
+
+If the publishing of trace was not set during the configuration of trace job itself, it can be set afterwards by clicking on 
 
 ## Configuration of Flow Creator
 
