@@ -79,7 +79,7 @@ When the Trace Job is configured correctly and added, it can be run by clicking 
 
 ## Publishing the Trace Jobs to Databus
 
-If the publishing of trace was not set during the configuration of Trace Job, it can be set afterwards by clicking on the meatballs menu and then on the button Publish Job.
+If the publishing of trace was not set during the configuration of the Trace Job, it can be set afterwards by clicking on the meatballs menu and then on the button Publish Job.
 
 ![Added_PLC](graphics/Trace_Job_publishing.png)
 
