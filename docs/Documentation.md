@@ -83,7 +83,7 @@ If the publishing of trace was not set during the configuration of the Trace Job
 
 ![Added_PLC](graphics/Trace_Job_publishing.png)
 
-In the next window, the option of publishing only the changes to databus can be selected. For continuos publishing, this checkbox should be leaved unchecked. Then, click on the button Publish. 
+In the next window, the option of publishing only the changes to Databus can be selected. For continuos publishing, this checkbox should be leaved unchecked. Then, click on the button Publish. 
 
 ![Added_PLC](graphics/Trace_Job_publishing_settings.png)
 
