@@ -50,9 +50,9 @@ Then, select the PLC added in previous section and write down the Job Name. Proc
 
 You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that every second sample will be taken. 
 
-The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
-
 ![Added_PLC](graphics/Trace_Job_configuration.png)
+
+The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. 
 
 In order to choose the signal for tracing, its exact TIA portal's name should be written down into Signal text box. Then, the button Add Signal should be pressed.
 More signals can be also traced using one trace job.
@@ -66,6 +66,8 @@ Anothe option is providing the PLC address of the signal.
 Moreover, these two options can be combined together.
 
 ![Added_PLC](graphics/Trace_Job_signals_combination.png)
+
+When the trace job is configured, click on the button Install on PLC.
 
 ## Publishing the trace jobs to Databus
 
