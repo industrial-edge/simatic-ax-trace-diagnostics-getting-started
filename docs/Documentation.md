@@ -46,23 +46,28 @@ Click on the button Add Trace Job.
 
 ![Added_PLC](graphics/Add_Trace_Job.png)
 
-Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of trace job. The sampling period will be the same as cyclic time of selected OB type cyclic interrup. You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that every second sample will be taken.
+Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of trace job. The sampling period will be the same as cyclic time of selected OB type cyclic interrup. 
+
+You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that every second sample will be taken. 
+
+The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
 
 ![Added_PLC](graphics/Trace_Job_configuration.png)
 
-In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box-
+In order to choose the signal for tracing, its exact TIA portal's name should be written down into Signal text box. Then, the button Add Signal should be pressed.
+More signals can be also traced using one trace job.
 
+![Added_PLC](graphics/Trace_Job_signals_more_names.png)
 
+Anothe option is providing the PLC address of the signal. 
 
+![Added_PLC](graphics/Trace_Job_configuration_address.png)
 
+Moreover, these two options can be combined together.
 
+![Added_PLC](graphics/Trace_Job_signals_combination.png)
 
-
-
-
-Then, the button Add Signal should be pressed. The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
-
-If the trace job is added, it can be run by clicking 
+If the trace job is added, it can be run by clicking on Button Add Trace Job.
 
 ## Publishing the trace jobs to Databus
 
