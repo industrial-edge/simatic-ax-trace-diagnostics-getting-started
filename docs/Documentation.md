@@ -2,10 +2,12 @@
 
 - [SIMATIC AX Trace Diagnostics Getting Started: Documentation](#simatic-ax-trace-diagnostics-getting-started-documentation)
   - [Installation of necessary applications](#installation-of-necessary-applications)
+  - [Configuration of Databus](#configuration-of-databus)
   - [Managing the running PLC](#managing-the-running-plc)
   - [Adding the PLC](#adding-the-plc)
-  - [Configuration of Databus](#configuration-of-databus)
-  - [Publishing the trace jobs to databus](#publishing-the-trace-jobs-to-databus)
+  - [Adding and configuring of Trace Job](#adding-and-configuring-of-trace-job)
+  - [Running the Trace Job](#running-the-trace-job)
+  - [Publishing the Trace Jobs to Databus](#publishing-the-trace-jobs-to-databus)
   - [Configuration of Flow Creator](#configuration-of-flow-creator)
 
 ## Installation of necessary applications
@@ -22,13 +24,13 @@ Download the TIA portal project (Tank application) to the PLC (real one or simul
 
 ## Adding the PLC (configuration of the PLC connection)
 
-Open the application SIMATIC AX Trace Diagnostics, click on the button Trace Jobs and then on button Add PLC.
+Open the application SIMATIC AX Trace Diagnostics, click on the button Trace Jobs and then on the button Add PLC.
 
 ![Click_on_Trace_Jobs](graphics/Click_on_Trace_Jobs.png)
 
 ![Click_on_Add_PLC](graphics/Click_on_Add_PLC.png)
 
-Fill the IP address of your PLC (can be different that the one in the image), nickname of your PLC (your choice, no impacts to functionality) and the password if it is used for accessing the PLC. Then, click on button Add.
+Fill the IP address of your PLC (can be different that the one in the image), nickname of your PLC (your choice, no impacts to functionality) and the password if it is used for accessing the PLC. Then, click on the button Add.
 
 ![Add_PLC](graphics/Add_PLC.png)
 
@@ -40,7 +42,7 @@ Then, the added PLC should be visible and its status is Online.
 
 ![Added_PLC](graphics/Added_PLC.png)
 
-## Adding and running the trace jobs
+## Adding and configuring the Trace Job
 
 Click on the button Add Trace Job.
 
@@ -67,13 +69,24 @@ Moreover, these two options can be combined together.
 
 ![Added_PLC](graphics/Trace_Job_signals_combination.png)
 
-When the trace job is configured, click on the button Install on PLC.
+When the Trace Job is configured, click on the button Install on PLC.
 
-## Publishing the trace jobs to Databus
+## Running the Trace Job
 
-If the publishing of trace was not set during the configuration of trace job itself, it can be set afterwards by clicking on 
+When the Trace Job is configured correctly and added, it can be run by clicking on the meatballs menu and then on the button Run Job.
 
-## Configuration of Flow Creator
+![Added_PLC](graphics/Trace_Job_running.png)
+
+## Publishing the Trace Jobs to Databus
+
+If the publishing of trace was not set during the configuration of Trace Job, it can be set afterwards by clicking on the meatballs menu and then on the button Publish Job.
+
+![Added_PLC](graphics/Trace_Job_publishing.png)
+
+In the next window, the option of publishing only the changes to databus can be selected. For continuos publishing, this checkbox should be leaved unchecked. Then, click on the button Publish. 
+
+![Added_PLC](graphics/Trace_Job_publishing_settings.png)
+
 
 
 
