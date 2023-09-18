@@ -48,7 +48,7 @@ Then, select the PLC added in previous section and write down the Job Name. Proc
 
 ![Added_PLC](graphics/Trace_Job_configuration.png)
 
-In order to choose the signals to be traced, their exact TIA portal's name or address should be written to Signal text box. Then, the button Add Signal should be pressed. The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
+In order to choose the signals to be traced, their exact TIA portal's names or address should be written into Signal text box. Then, the button Add Signal should be pressed. The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. When the trace job is configured, click on the button Install on PLC.
 
 ## Configuration of Databus
 
