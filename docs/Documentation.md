@@ -8,6 +8,7 @@
   - [Adding and configuring of Trace Job](#adding-and-configuring-of-trace-job)
   - [Running the Trace Job](#running-the-trace-job)
   - [Publishing the Trace Jobs to Databus](#publishing-the-trace-jobs-to-databus)
+  - [Observing the Trace Jobs and data exporting](#observing-the-trace-jobs-and-data-exporting)
   - [Configuration of Flow Creator](#configuration-of-flow-creator)
 
 ## Installation of necessary applications
@@ -98,6 +99,8 @@ If the publishing of trace was not set during the configuration of the Trace Job
 In the next window, the option of publishing only the changes to Databus can be selected. For continuos publishing, this checkbox should be left unchecked. Then, click on the button Publish. 
 
 ![Added_PLC](graphics/Trace_Job_publishing_settings.png)
+
+## Observing the Trace Jobs and data exporting
 
 
 
