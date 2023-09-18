@@ -73,6 +73,16 @@ Moreover, these two options can be combined together.
 
 When the Trace Job is configured, click on the button Install on PLC.
 
+Here is the table of proposed process value for tracing:
+
+| TIA portal's Name  | PLC address | Description |
+| ------------- | ------------- | ------------- |
+| GDB.signals.tankSignals.actLev  | %DB1.DBD94  | actual level of tank in milliliters |
+| GDB.signals.tankSignals.actTemperature  | %DB1.DBD94  |  actual temparature in tank in degree Celsius |
+| GDB.signals.tankSignals.actPressure  | %DB1.DBD100  | actual pressure in tank in bars |
+| GDB.signals.bottleSignals.outputTank  | %DB1.DBD116  | actual outflow from tank in milliliters per second  |
+| GDB.signals.bottleSignals.actLevel  | %DB1.DBD110  | actual level of filling bottle in milliliters |
+
 ## Running the Trace Job
 
 When the Trace Job is configured correctly and added, it can be run by clicking on the meatballs menu and then on the button Run Job.
@@ -85,7 +95,7 @@ If the publishing of trace was not set during the configuration of the Trace Job
 
 ![Added_PLC](graphics/Trace_Job_publishing.png)
 
-In the next window, the option of publishing only the changes to Databus can be selected. For continuos publishing, this checkbox should be leaved unchecked. Then, click on the button Publish. 
+In the next window, the option of publishing only the changes to Databus can be selected. For continuos publishing, this checkbox should be left unchecked. Then, click on the button Publish. 
 
 ![Added_PLC](graphics/Trace_Job_publishing_settings.png)
 
