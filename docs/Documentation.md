@@ -100,6 +100,22 @@ In the next window, the option of publishing only the changes to Databus can be 
 
 ![Added_PLC](graphics/Trace_Job_publishing_settings.png)
 
+The publication to Databus can be deleted by clicking to the button Delete Publication in meat beals menu in corresponding Trace Job. 
+
+![Added_PLC](graphics/Deleting_Databus_Publication_1.png)
+
+![Added_PLC](graphics/Deleting_Databus_Publication_1_next_window.png)
+
+In order to see the overview of Databus publication, click on the button Databus Publications.
+
+![Added_PLC](graphics/Databus_Publications.png)
+
+Here the Databus publication can be deleted as well.
+
+![Added_PLC](graphics/Deleting_Databus_Publication_2.png)
+
+![Added_PLC](graphics/Deleting_Databus_Publication_2_next_window.png)
+
 The maximum of published Trace Jobs to databus is four.
 
 ![Added_PLC](graphics/Maximum_of_Databus_publishing.png)
