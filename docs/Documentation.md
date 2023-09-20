@@ -102,7 +102,9 @@ In the next window, the option of publishing only the changes to Databus can be 
 
 The maximum of published Trace Jobs to databus is four.
 
+![Added_PLC](graphics/Maximum_of_Databus_publishing.png)
 
+![Added_PLC](graphics/Maximum_of_Databus_publishing_Databus_Publications.png)
 
 ## Observing the Trace Jobs and data exporting
 
