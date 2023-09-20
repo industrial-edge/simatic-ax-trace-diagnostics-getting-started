@@ -4,6 +4,7 @@
   - [Installation of necessary applications](#installation-of-necessary-applications)
   - [Configuration of Databus](#configuration-of-databus)
   - [Managing the running PLC](#managing-the-running-plc)
+  - [Configuration of connection to MQQT Databus](#configuration-of-connection-to-mqtt-databus)
   - [Adding the PLC](#adding-the-plc)
   - [Adding and configuring of Trace Job](#adding-and-configuring-of-trace-job)
   - [Running the Trace Job](#running-the-trace-job)
@@ -39,7 +40,7 @@ Download the TIA portal project (Tank application) to the PLC (real one or simul
 
 The HMI interface can be also downloaded/simulated for better understanding of demo Tank application workflow. 
 
-## Configuration of connection to MQQT Databus
+## Configuration of connection to MTT Databus
 
 Open the application SIMATIX AX Trace Diagnostics, click on the button Settings and then on the button Edit under MQTT Connection Status. 
 
