@@ -100,6 +100,10 @@ In the next window, the option of publishing only the changes to Databus can be 
 
 ![Added_PLC](graphics/Trace_Job_publishing_settings.png)
 
+The maximum of published Trace Jobs to databus is four.
+
+
+
 ## Observing the Trace Jobs and data exporting
 
 
