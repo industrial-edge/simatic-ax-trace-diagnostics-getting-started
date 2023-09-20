@@ -106,7 +106,7 @@ The publication to Databus can be deleted by clicking to the button Delete Publi
 
 ![Added_PLC](graphics/Deleting_Databus_Publication_1_next_window.png)
 
-In order to see the overview of Databus publication, click on the button Databus Publications.
+In order to see the overview of Databus publications, click on the button Databus Publications.
 
 ![Added_PLC](graphics/Databus_Publications.png)
 
