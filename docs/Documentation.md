@@ -19,8 +19,19 @@ In order to try out the main functionalities of SIMATIC AX Trace Diagnostics app
 
 ## Configuration of Databus
 
-In your IEM go to the Data Connections and open the Databus. Add a user with following topic: `"ie/#"`:
+In your IEM go to the Data Connections and open the Databus. Add a user with following topic: `"ie/#"` and deploy it to IED.
 
+![Click_on_Trace_Jobs](graphics/Databus_configuration_1.png)
+
+![Click_on_Trace_Jobs](graphics/Databus_configuration_2.png)
+
+![Click_on_Trace_Jobs](graphics/Databus_configuration_3.png)
+
+![Click_on_Trace_Jobs](graphics/Databus_configuration_4.png)
+
+![Click_on_Trace_Jobs](graphics/Databus_configuration_5.png)
+
+![Click_on_Trace_Jobs](graphics/Databus_configuration_6.png)
 
 ## Managing the running PLC
 
