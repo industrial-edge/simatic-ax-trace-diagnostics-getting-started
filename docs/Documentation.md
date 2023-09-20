@@ -42,7 +42,7 @@ The HMI interface can be also downloaded/simulated for better understanding of d
 
 ## Configuration of connection to MQTT Databus
 
-Open the application SIMATIX AX Trace Diagnostics, click on the button Settings and then on the button Edit under MQTT Connection Status. 
+Open the application SIMATIX AX Trace Diagnostics, go to the Settings and then click on the button Edit under the MQTT Connection Status. 
 
 ![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_1.png)
 
