@@ -44,15 +44,15 @@ The HMI interface can be also downloaded/simulated for better understanding of d
 
 Open the application SIMATIX AX Trace Diagnostics, click on the button Settings and then on the button Edit under MQTT Connection Status. 
 
-![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_1)
+![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_1.png)
 
 Then, configure the MQTT Databus Address, Port Number, Username and Password and click on the button Connect.
 
-![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_2)
+![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_2.png)
 
 When this configuration is done, the MQTT Connection Status should be Connected. 
 
-![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_3)
+![Click_on_Trace_Jobs](graphics/MQTT_connection_configuration_3.png)
 
 ## Adding the PLC (configuration of the PLC connection)
 
