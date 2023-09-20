@@ -74,7 +74,7 @@ Moreover, these two options can be combined together.
 
 When the Trace Job is configured, click on the button Install on PLC.
 
-Here is the table of proposed process value for tracing:
+Here is the table of proposed process values for tracing:
 
 | TIA portal's Name  | PLC address | Description | Proposed Trace Job's name |
 | ------------- | ------------- | ------------- | ------------- |
