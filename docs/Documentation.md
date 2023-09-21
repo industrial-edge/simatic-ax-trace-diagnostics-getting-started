@@ -97,13 +97,13 @@ When the Trace Job is configured, click on the button Install on PLC.
 
 Here is the table of proposed process values for tracing:
 
-| TIA portal's Name  | PLC address | Description | Proposed Trace Job's name |
+| TIA portal's Name | Description | Proposed Trace Job's name |
 | ------------- | ------------- | ------------- | ------------- |
-| GDB.signals.tankSignals.actLevel  | %DB1.DBD94  | actual level of tank in liters | TankActLevel |
-| GDB.signals.tankSignals.actTemperature  | %DB1.DBD94  |  actual temparature in tank in degrees Celsius | TankActTemp |
-| GDB.signals.tankSignals.actPressure  | %DB1.DBD100  | actual pressure in tank in hectopascals | TankActPress |
-| GDB.signals.bottleSignals.outputTank  | %DB1.DBD116  | actual outflow from tank in liters per minute  | TankOutput |
-| GDB.signals.bottleSignals.actLevel  | %DB1.DBD110  | actual level of filling bottle in liters | BottleActLevel |
+| GDB.signals.tankSignals.actLevel  | actual level of tank in liters | TankActLevel |
+| GDB.signals.tankSignals.actTemperature  |  actual temparature in tank in degrees Celsius | TankActTemp |
+| GDB.signals.tankSignals.actPressure | actual pressure in tank in hectopascals | TankActPress |
+| GDB.signals.bottleSignals.outputTank | actual outflow from tank in liters per minute  | TankOutput |
+| GDB.signals.bottleSignals.actLevel | actual level of filling bottle in liters | BottleActLevel |
 
 ## Running the Trace Job
 
