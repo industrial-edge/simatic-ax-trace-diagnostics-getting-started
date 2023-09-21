@@ -98,7 +98,7 @@ When the Trace Job is configured, click on the button Install on PLC.
 Here is the table of proposed process values for tracing:
 
 | TIA portal's Name | Description | Proposed Trace Job's name |
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | GDB.signals.tankSignals.actLevel  | actual level of tank in liters | TankActLevel |
 | GDB.signals.tankSignals.actTemperature  |  actual temparature in tank in degrees Celsius | TankActTemp |
 | GDB.signals.tankSignals.actPressure | actual pressure in tank in hectopascals | TankActPress |
