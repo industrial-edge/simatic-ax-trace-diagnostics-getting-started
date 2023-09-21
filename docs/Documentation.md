@@ -10,8 +10,9 @@
   - [Running the Trace Job](#running-the-trace-job)
   - [Publishing the Trace Jobs to Databus](#publishing-the-trace-jobs-to-databus)
   - [Observing the Trace Jobs and data exporting](#observing-the-trace-jobs-and-data-exporting)
-  - [Configuration of Flow Creator](#configuration-of-flow-creator)
-
+  - [Checking the published data in IIH Essentials](#checking-the-published-data-in-iih-essentials)
+  - [Configuration of FlowCreator and checking the published data](#configuration-of-flowcreator-and-checking-the-published-data)
+ 
 ## Installation of necessary applications
 
 In order to try out the main functionalities of SIMATIC AX Trace Diagnostics application and the application example itself, the following applications should be installed on your IED or IEVD:
@@ -166,3 +167,7 @@ In order to export the data to desire format, click on the hamburger icon and ex
 ![Added_PLC](graphics/Trace_Job_updating_exporting_1.png)
 
 ![Added_PLC](graphics/Trace_Job_updating_exporting_2.png)
+
+## Checking the published data in IIH Essentials
+
+## Configuration of FlowCreator and checking the published data
