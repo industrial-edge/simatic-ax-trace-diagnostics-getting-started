@@ -153,6 +153,8 @@ The maximum of published Trace Jobs to databus is four.
 
 ## Observing the Trace Jobs and data exporting
 
+Go back to Trace Jobs and open 
+
 
 
 
