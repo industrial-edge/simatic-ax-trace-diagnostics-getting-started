@@ -111,7 +111,7 @@ Here is the table of proposed process values for tracing:
 | GDB.signals.tankSignals.actTemperature  | %DB1.DBD94  |  actual temparature in tank in degrees Celsius | TankActTemp |
 | GDB.signals.tankSignals.actPressure  | %DB1.DBD100  | actual pressure in tank in hectopascals | TankActPress |
 | GDB.signals.bottleSignals.outputTank  | %DB1.DBD116  | actual outflow from tank in liters per minute  | TankOutput |
-| GDB.signals.bottleSignals.actLevel  | %DB1.DBD110  | actual level of filling bottle in liters | BottleLevel |
+| GDB.signals.bottleSignals.actLevel  | %DB1.DBD110  | actual level of filling bottle in liters | BottleActLevel |
 
 ## Running the Trace Job
 
