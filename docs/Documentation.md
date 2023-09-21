@@ -93,14 +93,6 @@ More signals can be also traced using one trace job.
 
 ![Added_PLC](graphics/Trace_Job_signals_more_names.png)
 
-Anothe option is providing the PLC address of the signal. 
-
-![Added_PLC](graphics/Trace_Job_signals_address.png)
-
-Moreover, these two options can be combined together.
-
-![Added_PLC](graphics/Trace_Job_signals_combination.png)
-
 When the Trace Job is configured, click on the button Install on PLC.
 
 Here is the table of proposed process values for tracing:
