@@ -12,6 +12,7 @@
   - [Observing the Trace Jobs and data exporting](#observing-the-trace-jobs-and-data-exporting)
   - [Checking the published data in IIH Essentials](#checking-the-published-data-in-iih-essentials)
   - [Configuration of FlowCreator and checking the published data](#configuration-of-flowcreator-and-checking-the-published-data)
+  - [Adding the second PLC and high speed sampling testing](#adding-the-second-plc-and-high-speed-sampling-testing)
  
 ## Installation of necessary applications
 
@@ -171,3 +172,5 @@ In order to export the data to desire format, click on the hamburger icon and ex
 ## Checking the published data in IIH Essentials
 
 ## Configuration of FlowCreator and checking the published data
+
+## Adding the second PLC and high speed sampling testing
