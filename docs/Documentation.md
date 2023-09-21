@@ -153,8 +153,24 @@ The maximum of published Trace Jobs to databus is four.
 
 ## Observing the Trace Jobs and data exporting
 
-Go back to Trace Jobs and open 
+Go back to the Trace Jobs and open some Trace Job by clicking on the button Read Job Data.
 
+![Added_PLC](graphics/Trace_Job_opening.png)
 
+Then, the plot of data appears. If the mouse is moved to the curve, the details (values of each axis) are visualized. 
 
+![Added_PLC](graphics/Trace_Bob_data_analysis.png)
 
+This can be done also if more signals are in plot. 
+
+![Added_PLC](graphics/Trace_Jobs_data_analysis_more_signals.png)
+
+If the plot needed to be updated, then click on the button Update.
+
+![Added_PLC](graphics/Trace_Job_updating.png)
+
+In order to export the data to desire format, click on the hamburger icon and export the data.
+
+![Added_PLC](graphics/Trace_Job_updating_exporting_1.png)
+
+![Added_PLC](graphics/Trace_Job_updating_exporting_2.png)
