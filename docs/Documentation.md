@@ -218,7 +218,7 @@ Here is the table of sinus value's specifications:
 | ------------- | ------------- | ------------- |
 | InstSinus.sinusVal  | value of periodic function sinus with various frequency, amplitude and offset | SinusValue |
 
-The parameters of sinus wave can be changed in TIA portal by setting of corresponding values
+The parameters of sinus wave can be changed in TIA portal's project by setting of corresponding values
 - sinusParameter.freq
 - sinusParameter.offset
 - sinusParameter.amplitude
