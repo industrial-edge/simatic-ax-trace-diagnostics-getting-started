@@ -59,9 +59,9 @@ Moreover, the high speed traicing is showed. This application has an ability to 
 
 ### TIA Project
 
-The used TIA Portal project (EdgeHowTos including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
+The used TIA Portal project EdgeHowTos (including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
 
-- [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
+- [EdgeHowTos.7z](docs/src/EdgeHowTos.7z)
 
 ## Configuration steps
 
