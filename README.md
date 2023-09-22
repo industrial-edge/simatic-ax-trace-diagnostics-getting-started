@@ -78,7 +78,7 @@ You can find the further information about the following steps in the [Documenta
 - Observing the Trace Jobs and data exporting
 - Checking the published data in IIH Essentials
 - Adding the second PLC and high speed sampling testing
-- 
+
 ## Usage
 
 The application SIMATIC AX Trace Diagnostics offers the following functionalities:
