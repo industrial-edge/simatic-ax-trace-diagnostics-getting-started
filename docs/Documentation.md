@@ -98,7 +98,7 @@ When the Trace Job is configured, click on the button Install on PLC.
 
 Here is the table of proposed process values for tracing:
 
-| TIA portal's Name | Description | Proposed Trace Job's name |
+| TIA portal's name | Description | Proposed Trace Job's name |
 | ------------- | ------------- | ------------- |
 | GDB.signals.tankSignals.actLevel  | actual level of tank in liters | TankActLevel |
 | GDB.signals.tankSignals.actTemperature  |  actual temparature in tank in degrees Celsius | TankActTemp |
@@ -211,5 +211,12 @@ Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and ad
 Then, configure the Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. 
 
 ![Added_PLC](graphics/Trace_Job_configuration_sinus.png)
+
+Here is the table of sinus value's specifications:
+
+| TIA portal's name | Description | Proposed Trace Job's name |
+| ------------- | ------------- | ------------- |
+| InstSinus.sinusVal  | value of periodic function sinus with various frequency, amplitude and offset | SinusValue |
+
 
 
