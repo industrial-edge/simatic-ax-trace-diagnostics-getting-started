@@ -237,7 +237,7 @@ This is the Trace Job for sinus value with frequency 10 and 50 Hertz.
 
 ![Trace_Job_sinus_50_Hz](graphics/Trace_Job_sinus_50_Hz.png)
 
-The sinus wave is still well sampled for frequency 200 Hz. 
+The sinus wave is still well sampled for the frequency 200 Hz. 
 
 ![Trace_Job_sinus_200_Hz_1](graphics/Trace_Job_sinus_200_Hz_1.png)
 
