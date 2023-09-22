@@ -37,9 +37,9 @@ In your IEM go to the Data Connections and open the Databus. Add a user with fol
 
 ## Managing the running PLC
 
-Download the TIA portal project (Tank application) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
+Download the PLC_Tank_application in TIA portal project (EdgeHowTos) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
 
-The HMI interface can be also downloaded/simulated for better understanding of demo Tank application workflow. 
+The HMI_Tank_application interface can be also downloaded/simulated for better understanding of demo Tank application workflow. 
 
 ## Configuration of connection to MQTT Databus
 
@@ -211,6 +211,8 @@ All other process values published to Databus in SIMATIC AX Trace Diagnostics ca
 ![IIH_Essentials_adding_variables](graphics/IIH_Essentials_adding_variables.png)
 
 ## Adding the second PLC and high speed sampling testing
+
+Download the PLC_Sinus_wave in TIA portal project (EdgeHowTos) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
 
 Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and add another PLC.
 
