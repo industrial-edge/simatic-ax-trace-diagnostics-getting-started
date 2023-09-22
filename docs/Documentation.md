@@ -206,3 +206,10 @@ All other process values published to Databus in SIMATIC AX Trace Diagnostics ca
 
 Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and add another PLC.
 
+![Added_PLC](graphics/Add_second_PLC.png)
+
+Then, configure the Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. 
+
+![Added_PLC](graphics/Trace_Job_configuration_sinus.png)
+
+
