@@ -20,9 +20,9 @@ The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Ind
 
 ### General task
 
-In this application example, the connection to the PLC using this application is managed and several signals from the bottles' filling process are traced.  The publishing of signals' data to Databus is also shown in this application example. Then, the corresponding signals are read using the Flow Creator.
+In this application example, the connection to the PLC using this application is managed and several signals from the bottles' filling process are traced. The publishing of signals' data to Databus is also shown in this application example. Then, the signals published to Databus are read using IIH Essentials application. 
 
-It can be noticed that a high frequency noise can be traced using this application as well. It is due to the ability of this application to trace high frequency signals. Why this application can do that? As will be explained in the Configuration guide, the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period.
+Moreover, the high speed traicing is showed. This application has an ability to trace high frequency signals. As it is explained in the Documentation, the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period.
 
 ![task](docs/graphics/Overview.png)
 
@@ -34,9 +34,9 @@ It can be noticed that a high frequency noise can be traced using this applicati
 - Onboarded Industrial Edge Device (IED) or Industrial Edge Virtual Device (IEVD) on IEM
 - Installed System Configurator for Databus
 - Installed System App Databus
-- Installed Apps SIMATIC AX Trace Diagnostics and Flow Creator
+- Installed Apps SIMATIC AX Trace Diagnostics and IIH Essentials
 - IED in the same network as PLC (PLC is reachable from IED)
-- TIA portal project (Tank Application) loaded on PLC (real one or simulated using S7-PLCSIM Advanced)
+- TIA portal project (EdgeHowTos including the Tank and Sinus wave application) loaded on two PLCs (real ones or simulated using S7-PLCSIM Advanced)
 
 ### Used components
 
@@ -44,7 +44,7 @@ It can be noticed that a high frequency noise can be traced using this applicati
   - SIMATIC AX Trace Diagnostics V1.0.2
   - Databus V2.1.0-4
   - Databus Configurator V2.0.0-4
-  - Flow Creator V 1.12.0-1
+  - IIH Essentials V1.8.0
   - Common Connector Configurator V1.8.2-3
 - Industrial Edge Virtual Device V1.12.0-3-a
 - TIA Portal V16
@@ -56,11 +56,10 @@ It can be noticed that a high frequency noise can be traced using this applicati
 
 - Databus Configurator is deployed to the IEM
 - Databus is deployed to the IED
-- Flow Creator is deployed to the IED
 
 ### TIA Project
 
-The used TIA Portal project (Tank Application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
+The used TIA Portal project (EdgeHowTos including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
 
 - [HowTos_Sinus_Wave.7z](docs/src/HowTos_Sinus_Wave.7z)
 
