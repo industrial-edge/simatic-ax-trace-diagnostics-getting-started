@@ -4,7 +4,7 @@
   - [Installation of necessary applications](#installation-of-necessary-applications)
   - [Configuration of Databus](#configuration-of-databus)
   - [Managing the running PLC](#managing-the-running-plc)
-  - [Configuration of connection to MQQT Databus](#configuration-of-connection-to-mqtt-databus)
+  - [Configuration of connection to MQTT Databus](#configuration-of-connection-to-mqtt-databus)
   - [Adding the PLC](#adding-the-plc)
   - [Adding and configuring of Trace Job](#adding-and-configuring-of-trace-job)
   - [Running the Trace Job](#running-the-trace-job)
