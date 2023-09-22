@@ -203,3 +203,6 @@ All other process values published to Databus in SIMATIC AX Trace Diagnostics ca
 ![Added_PLC](graphics/IIH_Essentials_adding_variables.png)
 
 ## Adding the second PLC and high speed sampling testing
+
+Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and add another PLC.
+
