@@ -231,7 +231,7 @@ The parameters of sinus wave can be changed in TIA portal project by setting of 
 - sinusParameter.offset
 - sinusParameter.amplitude
 
-This is the Trace Job for sinus value with frequency 10 and 50 Hertz. 
+This is the Trace Job for sinus value with the frequency 10 and 50 Hertz. 
 
 ![Trace_Job_sinus_10_Hz](graphics/Trace_Job_sinus_10_Hz.png)
 
