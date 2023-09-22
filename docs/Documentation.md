@@ -231,5 +231,20 @@ The parameters of sinus wave can be changed in TIA portal's project by setting o
 - sinusParameter.offset
 - sinusParameter.amplitude
 
+This is the Trace Job for sinus value with frequency 10 and 50 Hertz. 
 
+![Trace_Job_sinus_10_Hz](graphics/Trace_Job_sinus_10_Hz.png)
 
+![Trace_Job_sinus_50_Hz](graphics/Trace_Job_sinus_50_Hz.png)
+
+The sinus wave is still well sampled for frequency 200 Hz. 
+
+![Trace_Job_sinus_200_Hz_1](graphics/Trace_Job_sinus_200_Hz_1.png)
+
+![Trace_Job_sinus_200_Hz_2](graphics/Trace_Job_sinus_200_Hz_2.png)
+
+For the frequency 201 Hz the aliased frequency is already seen in the traced signal. 
+
+![Trace_Job_sinus_201_Hz_1](graphics/Trace_Job_sinus_201_Hz_1.png)
+
+![Trace_Job_sinus_201_Hz_2](graphics/Trace_Job_sinus_201_Hz_2.png)
