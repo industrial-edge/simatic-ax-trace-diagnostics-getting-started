@@ -171,6 +171,33 @@ In order to export the data to desire format, click on the hamburger icon and ex
 
 ## Checking the published data in IIH Essentials
 
+Open the application IIH Essentials, go to the Settings and configure the  Databus settings. 
+
+![Added_PLC](graphics/IIH_Essentials_Databus_settings_1.png)
+
+![Added_PLC](graphics/IIH_Essentials_Databus_settings_2.png)
+
+![Added_PLC](graphics/IIH_Essentials_Databus_settings_3.png)
+
+Then, go to Connectors and configure custom connector for the data from SIMATIC AX Trace Diagnostics application.
+
+![Added_PLC](graphics/IIH_Essentials_adding_cutom_connector_1.png)
+
+![Added_PLC](graphics/IIH_Essentials_adding_cutom_connector_2.png)
+
+![Added_PLC](graphics/IIH_Essentials_adding_cutom_connector_3.png)
+
+When this configuration is done, the configured custom connector should look as follows:
+
+![Added_PLC](graphics/IIH_Essentials_adding_cutom_connector_4.png)
+
+Go to the Assets & Connectivity and add the variable published to databus in SIMATIC AX Trace Diagnostics application. 
+
+![Added_PLC](graphics/IIH_Essentials_adding_variable_1.png)
+
+
+
+
 ## Configuration of FlowCreator and checking the published data
 
 ## Adding the second PLC and high speed sampling testing
