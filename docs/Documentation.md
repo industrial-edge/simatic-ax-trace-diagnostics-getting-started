@@ -191,12 +191,17 @@ When this configuration is done, the configured custom connector should look as 
 
 ![Added_PLC](graphics/IIH_Essentials_adding_cutom_connector_4.png)
 
-Go to the Assets & Connectivity and add the variable published to databus in SIMATIC AX Trace Diagnostics application. 
+Go to the Assets & Connectivity and add the variable published to Databus in SIMATIC AX Trace Diagnostics application. Only the marked setting should be done. The other fields are filled automatically and it can be kept.
 
 ![Added_PLC](graphics/IIH_Essentials_adding_variable_1.png)
 
+When the variable is added, its values can be observed.
 
+![Added_PLC](graphics/IIH_Essentials_adding_variable_2.png)
 
+All other process values published to Databus in SIMATIC AX Trace Diagnostics can be added same way. 
+
+![Added_PLC](graphics/IIH_Essentials_adding_variables.png)
 
 ## Configuration of FlowCreator and checking the published data
 
