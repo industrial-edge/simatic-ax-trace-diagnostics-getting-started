@@ -66,14 +66,19 @@ The used TIA Portal project (EdgeHowTos including the Tank and Sinus wave applic
 ## Configuration steps
 
 You can find the further information about the following steps in the [Documentation](docs/Documentation.md)
-- Install the necessary applications
-- Manage the running PLC
-- Add the PLC (configure the PLC connection)
-- Add and run the trace jobs
-- Configure the Databus
-- Publish the trace jobs to Databus
-- Configure Flow Creator
 
+- Installation of necessary applications
+- Configuration of Databus
+- Managing the running PLC
+- Configuration of connection to MQTT Databus
+- Adding the PLC
+- Adding and configuring of Trace Job
+- Running the Trace Job
+- Publishing the Trace Jobs to Databus
+- Observing the Trace Jobs and data exporting
+- Checking the published data in IIH Essentials
+- Adding the second PLC and high speed sampling testing
+- 
 ## Usage
 
 The application SIMATIC AX Trace Diagnostics offers the following functionalities:
