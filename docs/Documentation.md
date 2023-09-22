@@ -11,7 +11,6 @@
   - [Publishing the Trace Jobs to Databus](#publishing-the-trace-jobs-to-databus)
   - [Observing the Trace Jobs and data exporting](#observing-the-trace-jobs-and-data-exporting)
   - [Checking the published data in IIH Essentials](#checking-the-published-data-in-iih-essentials)
-  - [Configuration of FlowCreator and checking the published data](#configuration-of-flowcreator-and-checking-the-published-data)
   - [Adding the second PLC and high speed sampling testing](#adding-the-second-plc-and-high-speed-sampling-testing)
  
 ## Installation of necessary applications
@@ -202,7 +201,5 @@ When the variable is added, its values can be observed.
 All other process values published to Databus in SIMATIC AX Trace Diagnostics can be added same way. 
 
 ![Added_PLC](graphics/IIH_Essentials_adding_variables.png)
-
-## Configuration of FlowCreator and checking the published data
 
 ## Adding the second PLC and high speed sampling testing
