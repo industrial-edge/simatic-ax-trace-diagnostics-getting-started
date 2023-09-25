@@ -57,7 +57,7 @@ Moreover, the high speed traicing using simple sinus wave is showed. This applic
 - Databus Configurator is deployed to the IEM
 - Databus is deployed to the IED
 
-### TIA Project
+### TIA Portal project
 
 The used TIA Portal project EdgeHowTos (including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name: 
 
