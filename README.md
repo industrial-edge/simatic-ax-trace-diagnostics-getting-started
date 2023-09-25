@@ -9,7 +9,7 @@
     - [Used components](#used-components)
     - [Further requirements](#further-requirements)
     - [TIA project](#tia-project)
-  - [Configuration steps](#configuration-steps)
+  - [Configuration steps and Usage](#configuration-steps-and-usage)
   - [Usage](#usage)
 
 ## Description
@@ -63,7 +63,7 @@ The used TIA Portal project EdgeHowTos (including the Tank and Sinus wave applic
 
 - [EdgeHowTos.7z](src/EdgeHowTos.7z)
 
-## Configuration steps
+## Configuration steps and Usage
 
 You can find the further information about the following steps in the [Documentation](docs/Documentation.md)
 
