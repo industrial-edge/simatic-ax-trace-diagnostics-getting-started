@@ -21,7 +21,7 @@ In order to try out the main functionalities of SIMATIC AX Trace Diagnostics app
 
 ## Configuration of Databus
 
-In your IEM go to the Data Connections and open the Databus. Add a user with following topic: `"ie/#"` and deploy it to IED.
+In your IEM go to the Data Connections and open the Databus. Add a user with following topic: `"ie/#"` and deploy it to IED (or IEVD).
 
 ![Databus_configuration_1](graphics/Databus_configuration_1.png)
 
@@ -37,7 +37,7 @@ In your IEM go to the Data Connections and open the Databus. Add a user with fol
 
 ## Managing the running PLC
 
-Download the PLC_Tank_application in TIA portal project (EdgeHowTos) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
+Download the PLC_Tank_application in TIA Portal project (EdgeHowTos) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
 
 The HMI_Tank_application interface can be also downloaded/simulated for better understanding of demo Tank application workflow. 
 
@@ -81,16 +81,16 @@ Click on the button Add Trace Job.
 
 ![/Add_Trace_Job](graphics/Add_Trace_Job.png)
 
-Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of trace job. The sampling period will be the same as cyclic time of selected OB type cyclic interrup. In case of Tank application use in this application example, the OB `"Cyclic interrupt"` is used. The sampling frequency will be 10 ms. 
+Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of Trace Job. The sampling period will be the same as cyclic time of selected OB type Cyclic interrup. In case of Tank application use in this application example, the OB `"Cyclic interrupt"` is used. The sampling frequency will be 10 milliseconds. 
 
-You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that every second sample will be taken. 
+You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that each second sample will be taken. 
 
 ![Trace_Job_configuration](graphics/Trace_Job_configuration.png)
 
-The specific Number of samples can be selected to take. The trace job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. 
+The specific Number of samples can be selected to take. The Trace Job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. 
 
-In order to choose the signal for tracing, its exact TIA portal's name should be written down into Signal text box. Then, the button Add Signal should be pressed.
-More signals can be also traced using one trace job.
+In order to choose the signal for tracing, its exact TIA Portal name should be written down into Signal text box. Then, the button Add Signal should be pressed.
+More signals can be also traced using one Trace Job.
 
 ![Trace_Job_signals_more_names](graphics/Trace_Job_signals_more_names.png)
 
@@ -122,13 +122,13 @@ In the next window, the option of publishing only the changes to Databus can be 
 
 ![Trace_Job_publishing_settings](graphics/Trace_Job_publishing_settings.png)
 
-The publication to Databus can be deleted by clicking to the button Delete Publication in meat beals menu in corresponding Trace Job. 
+The publication to Databus can be deleted by clicking to the button Delete Publication in meat beals menu of corresponding Trace Job. 
 
 ![Deleting_Databus_Publication_1](graphics/Deleting_Databus_Publication_1.png)
 
 ![Deleting_Databus_Publication_1_next_window](graphics/Deleting_Databus_Publication_1_next_window.png)
 
-In order to see the overview of Databus publications, go the Databus Publications.
+In order to see the overview of publications to Databus, go the Databus Publications.
 
 ![/Databus_Publications](graphics/Databus_Publications.png)
 
@@ -138,7 +138,7 @@ Here the Databus publication can be deleted as well.
 
 ![Deleting_Databus_Publication_2_next_window](graphics/Deleting_Databus_Publication_2_next_window.png)
 
-The maximum of published Trace Jobs to databus is four.
+The maximum of published Trace Jobs to Databus is four.
 
 ![Maximum_of_Databus_publishing](graphics/Maximum_of_Databus_publishing.png)
 
@@ -154,7 +154,7 @@ Then, the plot of data appears. If the mouse is moved to the curve, the details 
 
 ![Trace_Bob_data_analysis](graphics/Trace_Bob_data_analysis.png)
 
-This can be done also if more signals are in plot. 
+This can be done also in case if more signals are in plot. 
 
 ![Trace_Jobs_data_analysis_more_signals](graphics/Trace_Jobs_data_analysis_more_signals.png)
 
@@ -162,11 +162,11 @@ If the plot needed to be updated, then click on the button Update.
 
 ![Trace_Job_updating](graphics/Trace_Job_updating.png)
 
-If zooming in or zooming out needs to be done, using these corresponding buttons it can be done.
+Using these corresponding buttons, the zooming in or zooming out can be done.
 
 ![Trace_Job_signals_zooming](graphics/Trace_Job_signals_zooming.png)
 
-Moreover, the specific area to zoom can be selected:
+Moreover, the specific area to zoom can be selected.
 
 ![Trace_Job_zooming_specific_area](graphics/Trace_Job_zooming_specific_area.png)
 
@@ -178,7 +178,7 @@ In order to export the data to desire format, click on the hamburger icon and ex
 
 ## Checking the published data in IIH Essentials
 
-Open the application IIH Essentials, go to the Settings and configure the  Databus settings. 
+Open the application IIH Essentials, go to the Settings and configure the Databus settings. 
 
 ![IIH_Essentials_Databus_settings_1](graphics/IIH_Essentials_Databus_settings_1.png)
 
@@ -218,7 +218,7 @@ Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and ad
 
 ![Add_second_PLC](graphics/Add_second_PLC.png)
 
-Then, configure the Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. 
+Then, configure the following Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. 
 
 ![Trace_Job_configuration_sinus](graphics/Trace_Job_configuration_sinus.png)
 
