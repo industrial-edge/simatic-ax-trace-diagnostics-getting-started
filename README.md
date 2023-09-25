@@ -22,7 +22,7 @@ The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Ind
 
 In this application example, the connection to the PLC using this application is managed and several signals from the bottles' filling process are traced. The publishing of signals' data to Databus is also shown in this application example. Then, the signals published to Databus are read using IIH Essentials application. 
 
-Moreover, the high speed traicing using simple sinus wave is showed. This application has an ability to trace high frequency signals. As it is explained in the Documentation, the sampling period of the signals is derived directly from the PLC's cyclic interrupt's cycling period.
+Moreover, the high speed traicing using simple sinus wave is showed. This application has an ability to trace high frequency signals. As it is explained in the Documentation, the sampling period of the signals is derived directly from the PLC's cyclic interrupt's cyclic time.
 
 ![task](docs/graphics/Overview.png)
 
@@ -88,7 +88,7 @@ The application SIMATIC AX Trace Diagnostics offers the following functionalitie
 - Visualization of traced signals
 - Exporing the plots to .svg, .png. and .csv files
 - Publishing the signals' data to Databus (up to 4 signals)
-- High speed sampling (sampling period is derived directly from PLC's cyclic intertup's cycling period)
+- High speed sampling (sampling period is derived directly from PLC's cyclic intertup's cyclic time)
 
 
 
