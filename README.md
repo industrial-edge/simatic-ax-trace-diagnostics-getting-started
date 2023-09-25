@@ -16,13 +16,13 @@
 
 ### Overview
 
-The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Industrial Edge used for tracing the PLC signals same way as it is done in the TIA Portal. This appication example demonstrates how to manage the connection with PLC and trace the chosen variables. 
+The SIMATIC AX Trace Diagnostics is web-based application running on SIEMENS Industrial Edge used for tracing the PLC signals same way as it is done in the TIA Portal. This appication example shows how to manage the connection with PLC and trace the chosen variables. 
 
 ### General task
 
 In this application example, the connection to the PLC using this application is managed and several signals from the bottles' filling process are traced. The publishing of signals' data to Databus is also shown in this application example. Then, the signals published to Databus are read using IIH Essentials application. 
 
-Moreover, the high speed traicing is showed. This application has an ability to trace high frequency signals. As it is explained in the Documentation, the sampling period of the signals is directly derived from the PLC's cyclic interrupt's sampling period.
+Moreover, the high speed traicing using simple sinus wave is showed. This application has an ability to trace high frequency signals. As it is explained in the Documentation, the sampling period of the signals is derived directly from the PLC's cyclic interrupt's cycling period.
 
 ![task](docs/graphics/Overview.png)
 
@@ -32,11 +32,11 @@ Moreover, the high speed traicing is showed. This application has an ability to 
 
 - Access to an Industrial Edge Management System (IEM)
 - Onboarded Industrial Edge Device (IED) or Industrial Edge Virtual Device (IEVD) on IEM
-- Installed System Configurator for Databus
-- Installed System App Databus
-- Installed Apps SIMATIC AX Trace Diagnostics and IIH Essentials
+- Installed system configurator for Databus
+- Installed system app Databus
+- Installed apps SIMATIC AX Trace Diagnostics and IIH Essentials
 - IED in the same network as PLC (PLC is reachable from IED)
-- TIA portal project (EdgeHowTos including the Tank and Sinus wave application) loaded on two PLCs (real ones or simulated using S7-PLCSIM Advanced)
+- TIA Portal project (EdgeHowTos including the Tank and Sinus wave application) loaded on two PLCs (real ones or simulated using S7-PLCSIM Advanced)
 
 ### Used components
 
@@ -59,7 +59,7 @@ Moreover, the high speed traicing is showed. This application has an ability to 
 
 ### TIA Project
 
-The used TIA Portal project EdgeHowTos (including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name and is also used for several further application examples: 
+The used TIA Portal project EdgeHowTos (including the Tank and Sinus wave application) can be found in the [src](src) directory under the following name: 
 
 - [EdgeHowTos.7z](src/EdgeHowTos.7z)
 
@@ -84,9 +84,11 @@ You can find the further information about the following steps in the [Documenta
 The application SIMATIC AX Trace Diagnostics offers the following functionalities:
 
 - Connection to PLC via integrated S7 connector
-- Definition of trace jobs
+- Definition of Trace Jobs
 - Visualization of traced signals
+- Exporing the plots to .svg, .png. and .csv files
 - Publishing the signals' data to Databus (up to 4 signals)
+- High speed sampling (sampling period is derived directly from PLC's cyclic intertup's cycling period)
 
 
 
