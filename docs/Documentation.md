@@ -90,7 +90,7 @@ You can also lower the sampling period by typing different integer than 1 to Sam
 The specific Number of samples can be selected to take. The Trace Job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. 
 
 In order to choose the signal for tracing, its exact TIA Portal name should be written down into Signal text box. Then, the button Add Signal should be pressed.
-More signals can be also traced using one Trace Job.
+More signals can be also traced using one Trace Job. If more signals are traced using one Trace Job, is secured that data are taken from the same time in TIA program execution.
 
 ![Trace_Job_signals_more_names](graphics/Trace_Job_signals_more_names.png)
 
