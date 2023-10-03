@@ -81,13 +81,13 @@ Click on the button Add Trace Job.
 
 ![/Add_Trace_Job](graphics/Add_Trace_Job.png)
 
-Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of Trace Job. The sampling period will be the same as cyclic time of selected OB type Cyclic interrup. In case of Tank application use in this application example, the OB `"Cyclic interrupt"` is used. The sampling frequency will be 10 milliseconds. 
+Then, select the PLC added in previous section and write down the Job Name. Proceed with selecting the Organization Block (OB) determining the sampling period of Trace Job. The sampling period will be the same as cyclic time of selected OB type Cyclic interrup. In case of Tank application use in this application example, the OB `"Cyclic interrupt"` is used. The sampling frequency will be 10 milliseconds. (Explain how to add OB. Is it by name or address? Can you type OB1, or OB30? Too bad that browsing is not working and you need to have TIA project)
 
-You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that each second sample will be taken. 
+You can also lower the sampling period by typing different integer than 1 to Samplig Frequency text box. For instance, 2 means that each second sample will be taken. (lowering sampling period means go faster. So here is increase sampling period. It can't be lowered.)
 
 ![Trace_Job_configuration](graphics/Trace_Job_configuration.png)
 
-The specific Number of samples can be selected to take. The Trace Job ends after that. If Perpetual Job Type type is seletected, the sampling is continuous until the trace job is turned off. 
+The specific Number of samples can be selected to take. The Trace Job ends after that. If Perpetual Job Type is seletected, the sampling is continuous until the trace job is turned off. 
 
 In order to choose the signal for tracing, its exact TIA Portal name should be written down into Signal text box. Then, the button Add Signal should be pressed.
 More signals can be also traced using one Trace Job.
@@ -114,7 +114,7 @@ When the Trace Job is configured correctly and added, it can be run by clicking 
 
 ## Publishing the Trace Jobs to Databus
 
-If the publishing of trace was not set during the configuration of the Trace Job, it can be set afterwards by clicking on the meatballs menu and then on the button Publish Job.
+If the publishing of trace was not set during the configuration of the Trace Job, it can be set afterwards by clicking on the <meatballs> menu and then on the button Publish Job.
 
 ![Trace_Job_publishing](graphics/Trace_Job_publishing.png)
 
@@ -122,7 +122,7 @@ In the next window, the option of publishing only the changes to Databus can be 
 
 ![Trace_Job_publishing_settings](graphics/Trace_Job_publishing_settings.png)
 
-The publication to Databus can be deleted by clicking to the button Delete Publication in meat beals menu of corresponding Trace Job. 
+The publication to Databus can be deleted by clicking to the button Delete Publication in meat beals menu of corresponding Trace Job. (This is not understandable: With delete you are stoping/disabling the furture publishing on Databus. You can't delete past events.)
 
 ![Deleting_Databus_Publication_1](graphics/Deleting_Databus_Publication_1.png)
 
@@ -144,7 +144,7 @@ The maximum of published Trace Jobs to Databus is four.
 
 ![Maximum_of_Databus_publishing_Databus_Publications](graphics/Maximum_of_Databus_publishing_Databus_Publications.png)
 
-## Observing the Trace Jobs and data exporting
+## Observing the Trace Jobs and data exporting (Visualisation of Trace jobs and data exporting)
 
 Go back to the Trace Jobs and open some Trace Job by clicking on the button Read Job Data.
 
@@ -158,7 +158,7 @@ This can be done also in case if more signals are in plot.
 
 ![Trace_Jobs_data_analysis_more_signals](graphics/Trace_Jobs_data_analysis_more_signals.png)
 
-If the plot needed to be updated, then click on the button Update.
+If the plot needs to be updated, then click on the button Update.
 
 ![Trace_Job_updating](graphics/Trace_Job_updating.png)
 
@@ -186,7 +186,7 @@ Open the application IIH Essentials, go to the Settings and configure the Databu
 
 ![IIH_Essentials_Databus_settings_3](graphics/IIH_Essentials_Databus_settings_3.png)
 
-Then, go to Connectors and configure custom connector for the data from SIMATIC AX Trace Diagnostics application.
+Then, go to Connectors and configure custom connector for the data from SIMATIC AX Trace Diagnostics application. (mention in text what are topics for metadata and datapoints)
 
 ![IIH_Essentials_adding_cutom_connector_1](graphics/IIH_Essentials_adding_cutom_connector_1.png)
 
@@ -218,7 +218,7 @@ Reopen the SIMATIC AX Trace Diagnostics application, go to the Trace Jobs and ad
 
 ![Add_second_PLC](graphics/Add_second_PLC.png)
 
-Then, configure the following Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. 
+Then, configure the following Trace Job for this PLC. Fill the OB's name `"1ms_Task"`. It means that the samplig period of this Trace Job will be 1 millisecond. (mention that name is the same as in TIA project)
 
 ![Trace_Job_configuration_sinus](graphics/Trace_Job_configuration_sinus.png)
 
@@ -245,7 +245,7 @@ The sinus wave is still well sampled for the frequency 200 Hz.
 
 ![Trace_Job_sinus_200_Hz_2](graphics/Trace_Job_sinus_200_Hz_2.png)
 
-For the frequency 201 Hz the aliased frequency is already seen in the traced signal. 
+For the frequency 201 Hz the aliased frequency is already seen in the traced signal. (I would remove this observation. For this, maybe bug should be created. You can investigate further with dev)
 
 ![Trace_Job_sinus_201_Hz_1](graphics/Trace_Job_sinus_201_Hz_1.png)
 
