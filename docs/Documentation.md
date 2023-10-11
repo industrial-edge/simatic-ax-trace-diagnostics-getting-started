@@ -244,9 +244,3 @@ The sinus wave is still well sampled for the frequency 200 Hz.
 ![Trace_Job_sinus_200_Hz_1](graphics/Trace_Job_sinus_200_Hz_1.png)
 
 ![Trace_Job_sinus_200_Hz_2](graphics/Trace_Job_sinus_200_Hz_2.png)
-
-For the frequency 201 Hz the aliased frequency is already seen in the traced signal. (I would remove this observation. For this, maybe bug should be created. You can investigate further with dev)
-
-![Trace_Job_sinus_201_Hz_1](graphics/Trace_Job_sinus_201_Hz_1.png)
-
-![Trace_Job_sinus_201_Hz_2](graphics/Trace_Job_sinus_201_Hz_2.png)
