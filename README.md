@@ -35,7 +35,7 @@ This application has an ability to trace high frequency signals. So, to demonstr
 - Installed system configurator for Databus
 - Installed system app Databus
 - Installed apps SIMATIC AX Trace Diagnostics and IIH Essentials
-- IED/IEvD is in the same network as PLC (PLC is reachable from IED)
+- IED/IEVD is in the same network as PLC (PLC is reachable from IED)
 - TIA Portal project (EdgeHowTos including the Tank and Sinus wave application) loaded on two PLCs (real ones or simulated using S7-PLCSIM Advanced)
 
 ### Used components
