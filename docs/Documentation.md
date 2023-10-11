@@ -39,7 +39,7 @@ In your IEM go to the Data Connections and open the Databus. Add a user with fol
 
 Download the PLC_Tank_application in TIA Portal project (EdgeHowTos) to the PLC (real one or simulated using S7-PLCSIM Advanced) which is in the same network as your IED (or IEVD). Then, run the PLC. 
 
-The HMI_Tank_application interface can be also downloaded/simulated for better understanding of demo Tank application workflow. 
+The HMI_Tank_application interface can be also downloaded/simulated for better understanding of demo Tank application's workflow. 
 
 ## Configuration of connection to MQTT Databus
 
