@@ -126,7 +126,7 @@ The publication to Databus can be deleted by clicking to the button Delete Publi
 
 ![Deleting_Databus_Publication_1](graphics/Deleting_Databus_Publication_1.png)
 
-![Deleting_Databus_Publication_1_next_window](graphics/Deleting_Databus_Publication_1_next_window.png)
+![Deleting_Databus_Publication_next_window](graphics/Deleting_Databus_Publication_next_window.png)
 
 In order to see the overview of publications to Databus, go the Databus Publications.
 
@@ -136,7 +136,7 @@ Here the Databus publication can be deleted as well.
 
 ![Deleting_Databus_Publication_2](graphics/Deleting_Databus_Publication_2.png)
 
-![Deleting_Databus_Publication_2_next_window](graphics/Deleting_Databus_Publication_2_next_window.png)
+![Deleting_Databus_Publication_next_window](graphics/Deleting_Databus_Publication_next_window.png)
 
 The maximum of published Trace Jobs to Databus is four.
 
