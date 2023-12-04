@@ -41,12 +41,12 @@ This application has an ability to trace high frequency signals. So, to demonstr
 ### Used components
 
 - Industrial Edge Management V1.5.2-4
-  - SIMATIC AX Trace Diagnostics V1.0.2
-  - Databus V2.1.0-4
-  - Databus Configurator V2.0.0-4
-  - IIH Essentials V1.8.0
-  - Common Connector Configurator V1.8.2-3
 - Industrial Edge Virtual Device V1.12.0-3-a
+- SIMATIC AX Trace Diagnostics V1.0.2
+- Databus V2.1.0-4
+- Databus Configurator V2.0.0-4
+- IIH Essentials V1.8.0
+- Common Connector Configurator V1.8.2-3
 - TIA Portal V16
 - S7-PLCSIM Advanced V3.0 Upd2
 - S7-1513-1 PN
