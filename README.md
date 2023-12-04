@@ -91,7 +91,7 @@ The application SIMATIC AX Trace Diagnostics offers the following functionalitie
 ## Documentation
 
 You can find further documentation and help in the following links
-  - [SIMATIC AX Trace documentation](https://cache.industry.siemens.com/dl/files/579/109815579/att_1124965/v1/System_Manual__SIMATIC_AX_Trace_for_Industrial_Edge.pdf)
+  - [SIMATIC AX Trace Diagnostics documentation](https://cache.industry.siemens.com/dl/files/579/109815579/att_1124965/v1/System_Manual_-_SIMATIC_AX_Trace_for_Industrial_Edge.pdf)
   - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
   - [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
   - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
