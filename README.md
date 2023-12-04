@@ -11,6 +11,9 @@
     - [TIA project](#tia-project)
   - [Configuration steps and Usage](#configuration-steps-and-usage)
   - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Licence and Legal Information](#licence-and-legal-information)
+  - [Disclaimer](#Disclaimer)
 
 ## Description
 
