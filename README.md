@@ -11,6 +11,10 @@
     - [TIA project](#tia-project)
   - [Configuration steps and Usage](#configuration-steps-and-usage)
   - [Usage](#usage)
+  - [Documentation](#documentation)
+  - [Contribution](#contribution)
+  - [Licence and Legal Information](#licence-and-legal-information)
+  - [Disclaimer](#disclaimer)
 
 ## Description
 
@@ -41,12 +45,12 @@ This application has an ability to trace high frequency signals. So, to demonstr
 ### Used components
 
 - Industrial Edge Management V1.5.2-4
-  - SIMATIC AX Trace Diagnostics V1.0.2
-  - Databus V2.1.0-4
-  - Databus Configurator V2.0.0-4
-  - IIH Essentials V1.8.0
-  - Common Connector Configurator V1.8.2-3
 - Industrial Edge Virtual Device V1.12.0-3-a
+- SIMATIC AX Trace Diagnostics V1.0.2
+- Databus V2.1.0-4
+- Databus Configurator V2.0.0-4
+- IIH Essentials V1.8.0
+- Common Connector Configurator V1.8.2-3
 - TIA Portal V16
 - S7-PLCSIM Advanced V3.0 Upd2
 - S7-1513-1 PN
@@ -84,6 +88,14 @@ The application SIMATIC AX Trace Diagnostics offers the following functionalitie
 - Exporing the plots to .svg, .png. and .csv files
 - Publishing the signals' data to Databus (up to 4 signals)
 - High speed sampling (sampling period of PLC's cyclic intertup)
+
+## Documentation
+
+You can find further documentation and help in the following links
+  - [SIMATIC AX Trace Diagnostics documentation](https://support.industry.siemens.com/cs/document/109815579/simatic-ax-trace-diagnostics-for-industrial-edge-v1-0-0?dti=0&dl=en&lc=de-WW)
+  - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
+  - [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
+  - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 
 ## Contribution
 
